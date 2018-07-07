@@ -15,4 +15,13 @@ Reproducibility
 ----------------
 * scriptability - some good notes on how to make it clear
 * literature programming (Donald Knuth)
-* 
+
+Github
+---------------
+* being on the wrong repo when issuing a **pull** request gives the base issue
+* no easy workaround
+* when using Git in RStudio.cloud, need to initialize global Git options 
+    * how far does this spread? project? all of your account? **currently project-specific** (feature request atm)
+    * have to login to GitHub every time you push
+    * caching of authentication information possible
+    
