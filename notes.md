@@ -34,3 +34,28 @@ RStudio Cloud Intro
 * teach R by osmosis, constant reinforcement
 * Concurrency is an issue - can't have multiple people connected at once
 * limits to numbers of workspaces + repositories
+
+GitHub for Education
+-----------------------
+* GitHub Classroom
+* one repo per student/team per assignment
+* repos are fungible - get lots, use lots
+https://education.github.com/discount_requests/new
+
+* to be able to use the API requires tokens
+    - Developer Settings
+    - Personal Access Token
+    - create, then use it via ghclass (R Package)
+    
+ghclass
+--------------
+* check_user_exists() - vectorized, GitHub usernames
+* get_members(), get_pending_members()
+* default state in an org is 'Member' - **way** too much permission by default - **lock it down**
+* get_repos() - can pull a list, filter it, then allow pushing material to all specific repos (e.g., hw01-)
+* need to pull repos using HTTPS, not SSH
+* **force students to always be working in the course workspace**
+* **ISSUE** - if the auth fails, the git clone fails, but the project still creates 
+* the cogwheel doesn't obviously tie to closing itself (UI)
+
+* team stuff is quite easy - create_teams(), create_team_repo(), etc.
