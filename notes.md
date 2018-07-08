@@ -25,3 +25,12 @@ Github
     * have to login to GitHub every time you push
     * caching of authentication information possible
     
+RStudio Cloud Intro
+--------------------
+* project installs are per-project
+* can create a base project with an environment that can stay static through the term
+* avoids the install necessity
+
+* teach R by osmosis, constant reinforcement
+* Concurrency is an issue - can't have multiple people connected at once
+* limits to numbers of workspaces + repositories
