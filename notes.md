@@ -6,7 +6,7 @@ Getting Started & Computing
 * memory issues (tomorrow)
 
 * using a Rmd interactive document on the first day - one small change = "coding"
-* versus a notebook?
+* versus a notebook? (didn't ask)
 * introducing the concept on the first day is better than using a Shiny interface and hiding the guts
     - motivation for what will be possible
     - need to build the course backwards, from the "outcomes" at the end, to what we start with on Day 1
@@ -14,7 +14,7 @@ Getting Started & Computing
 Reproducibility
 ----------------
 * scriptability - some good notes on how to make it clear
-* literature programming (Donald Knuth)
+* literate programming (Donald Knuth)
 
 Github
 ---------------
@@ -23,17 +23,17 @@ Github
 * when using Git in RStudio.cloud, need to initialize global Git options 
     * how far does this spread? project? all of your account? **currently project-specific** (feature request atm)
     * have to login to GitHub every time you push
-    * caching of authentication information possible
+    * caching of authentication information possible - Colin showed syntax
     
 RStudio Cloud Intro
 --------------------
 * project installs are per-project
-* can create a base project with an environment that can stay static through the term
+* can create a base project with an environment that can stay static through the term (Mine's: **All about that base**)
 * avoids the install necessity
 
 * teach R by osmosis, constant reinforcement
-* Concurrency is an issue - can't have multiple people connected at once
-* limits to numbers of workspaces + repositories
+* Concurrency is an issue - can't have multiple people connected at once to a given project - issue for marking unless GitHub is used
+* limits to numbers of workspaces + repositories, can request more for Academic use
 
 GitHub for Education
 -----------------------
